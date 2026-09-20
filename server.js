@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const app = express();
 app.use(express.json());
 
-const REAL_WEBHOOK = "https://discord.com/api/webhooks/1551189944989650966/WFq2VJA8tiNhBLRVrtXcHSLZ9TNbqjTJdFdtmPw9_kYLtFb4vhlBzusZau6g0EhmO3i4";
+const REAL_WEBHOOK = "https://discord.com/api/webhooks/1551226956203434056/fHrLoSbdnWhsZOMkp4HzzWKEIrmRw8CztSfgTh1qi93GIRZEVdO3VlT-ZoIldAETU_89";
 
 app.post("/log", async (req, res) => {
     try {
